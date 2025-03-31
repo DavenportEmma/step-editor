@@ -6,5 +6,29 @@
             {"note": "D3", "velocity": 127}
         ],
         "end_of_step": 0
+    },
+    {
+        "note_off": ["C3", "D3"],
+        "note_on": [
+            {"note": "G3", "velocity": 127},
+            {"note": "F3", "velocity": 127}
+        ],
+        "end_of_step": 0
+    },
+    {
+        "note_off": ["G3", "F3"],
+        "note_on": [
+            {"note": "E3", "velocity": 127},
+            {"note": "A3", "velocity": 127}
+        ],
+        "end_of_step": 0
+    },
+    {
+        "note_off": ["E3", "A3"],
+        "note_on": [
+            {"note": "C4", "velocity": 127},
+            {"note": "D4", "velocity": 127}
+        ],
+        "end_of_step": 255
     }
 ]
