@@ -1,0 +1,10 @@
+[
+    {
+        "note_off": ["C4", "D4"],
+        "note_on": [
+            {"note": "C3", "velocity": 127},
+            {"note": "D3", "velocity": 127}
+        ],
+        "end_of_step": 0
+    }
+]
