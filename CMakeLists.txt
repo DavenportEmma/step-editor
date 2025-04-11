@@ -18,7 +18,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 add_executable(${PROJECT_NAME})
 
 execute_process(
-    COMMOND ${PYTHON_EXECUTABLE}
+    COMMAND ${PYTHON_EXECUTABLE}
     ${CMAKE_CURRENT_SOURCE_DIR}/sequence-generator.py
     -i ${CMAKE_CURRENT_SOURCE_DIR}/sequence.json
     -o ${CMAKE_BINARY_DIR}/sequence.h
