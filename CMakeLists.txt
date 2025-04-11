@@ -26,6 +26,8 @@ execute_process(
 
 target_sources(${PROJECT_NAME} PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/src/main.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/stubs.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/step-editor.c
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
